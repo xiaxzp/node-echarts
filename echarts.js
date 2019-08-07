@@ -146,6 +146,12 @@ node_echarts({
   path: Path.join(__dirname, "./charts.png")
 });
 console.log(process.argv);
+try{
+  console.log(JSON.parse(process.argv[2]));
+}catch(e){
+  console.log('error');
+}
+console.log(JSON.parse('{"a":1,"b":2}'));
 process.stdin.on('data',(input)=>{
   console.log(input.toString());
 })
