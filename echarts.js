@@ -145,5 +145,8 @@ node_echarts({
   option: config,
   path: Path.join(__dirname, "./charts.png")
 });
-
+console.log(process.argv);
+process.stdin.on('data',(input)=>{
+  console.log(input.toString());
+})
 process.exit();
