@@ -6,3 +6,14 @@ node-echarts 案例
 
 
 博客：https://segmentfault.com/a/1190000013936186
+
+入口
+echarts.js
+
+出口
+charts.png
+
+编译
+npm install
+npm run pkg
+dist目录

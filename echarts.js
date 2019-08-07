@@ -143,7 +143,7 @@ node_echarts({
   width: 1000,
   height: 426,
   option: config,
-  path: Path.join(__dirname, "./charts.png")
+  path: "./charts.png"//Path.join(__dirname, "./charts.png")
 });
 console.log(process.argv);
 try{
